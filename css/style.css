@@ -1,0 +1,153 @@
+
+.navbar-inverse{
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand
+{
+	color: #fff;
+	font-family: 'Boogaloo', cursive;
+	font-size: 30px;
+	margin-right: 80px;
+}
+
+.navbar-inverse .navbar-brand:hover
+{
+	color: #90EE90;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+	font-size: 30px;
+    font-family: 'Boogaloo', cursive;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #90EE90;
+}
+
+.navbar-inverse .navbar-nav>li.active>a{
+	color: #90EE90;
+	background-color: #2C3E50;
+	
+}
+
+
+
+h1{
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 3px
+
+}
+
+.resena{
+    color: #2c3e50;
+}
+.fantasma {
+
+    
+    display: inline;
+
+    /* utilizamos estas propiedades para centrar el botón */
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    /* definimos los estilos del texto */
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #2c3e50;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* agregamos un borde y lo separamos del texto */
+    border: 0.15em solid #2c3e50;
+    padding: 0.4em 0.6em;
+
+    /* animamos el cambio de colores */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+.fantasma:hover {
+    background: #2c3e50;
+    border-color: #2c3e50;
+    color: #fff;
+}
+
+.fantasmaFila{
+    margin-top: 40px;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    padding-bottom: 7px;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #90EE90;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+strong{
+    color: #2c3e50;
+}
+
+img{
+     
+     box-shadow: 3px 3px 6px #2c3e50;
+  -webkit-box-shadow: 3px 3px 6px #2c3e50;
+  -moz-box-shadow: 3px 3px 6px #2c3e50;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.label-custom{
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+
+
+
+
