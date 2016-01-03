@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>CAFSa GYM</title>
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,12 +16,9 @@
     <style>
     .intro-section{
           background-image: url(img/imagen.png);
-          
           background-repeat: no-repeat;
           background-position: 110% 60%
-
     }
-
 
      </style>
      <script type="text/JavaScript">
@@ -249,7 +246,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     </div>
 
                     <!-- SE CIERRA PRIMER FILA DE ACTIVIDADES -->
-                     <br>
+                    
                     <!-- SE ABRE SEGUNDA FILA DE ACTIVIDADES -->
 
                     <div class="row">
@@ -332,15 +329,17 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 <h1>Contacto</h1>
                 <hr class="star-light">
             </div>
+
+        <div class="col-lg-12 col-lg-offset-1">
            <form class="form-horizontal">
                 <div class="form-group form-group-lg">
-                  <label for="inputEmail3" class="col-sm-2 label-custom control-label ">Nombre</label>
-                  <div class="col-sm-6">
+                    <label for="inputEmail3" class="col-sm-2 label-custom control-label ">Nombre</label>
+                    <div class="col-sm-6">
                         <input type="text" class="form-control" id="exampleInputName2" placeholder="Ingrese su Nombre">
-                  </div>
+                    </div>
                 </div>
 
-                  <div class="form-group form-group-lg">
+                <div class="form-group form-group-lg">
                     <label for="inputEmail3" class="col-sm-2 control-label label-custom">Email</label>
                     <div class="col-sm-6">
                           <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Ingrese su Email">
@@ -360,14 +359,16 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         <textarea class="form-control" rows="5" placeholder="Escriba su Consulta" ></textarea>
                   </div>
                 </div>
-                
+          
                 <div class="form-group">
-                   <div class="col-sm-6 col-sm-offset-2">
-                       <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+
+                   <div class="col-lg-12 ">
+                       <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-default btn-lg">
                    </div>
                 </div>
-  
+
             </form>
+        </div>
 
         </div>
     </section>
