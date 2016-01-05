@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CAFSa GYM</title>
+    <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo" />
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,7 +68,7 @@
                         <a class="page-scroll" href="#nosotros">Nosotros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#actividades">Avtividades</a>
+                        <a class="page-scroll" href="#actividades">Actividades</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#novedades">Novedades</a>
@@ -98,7 +99,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                 <br>
-                     <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda accusantium ea, optio vitae laboriosam ex adipisci asperiores iusto, a cum accusamus totam sapiente debitis. Fugit vero quia distinctio, veritatis! </p>
+                     <p class="intro"> Centro de Actividad Física para la Salud </p>
                 <br>
                     <a class="btn btn-default page-scroll fantasma" href="#nosotros">Sobre Nosotros</a>
                 </div>
@@ -194,55 +195,48 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- SECCION ACTIVIDADES -->
     <section id="actividades" class="actividades-section">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Actividades</h1>
                     <hr class="star-primary"></hr>    
-                    <!--SE ABRE PRIMER FILA DE ACTIVIDADES-->
+
+        <!--SE ABRE PRIMER FILA DE ACTIVIDADES-->
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-4">
                             <div class="center">
-                                <img src="img/musculacion01 (OPT)" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/ritmo01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
-                                    <strong>Clases de Musculación</strong>
+                                    <strong>Jornadas de Ritmos </strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                
+                                <p class="pieFotoAct">Para niñas, adolescentes y adultos.</p>   
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                         <div class="center">
-                                <img src="img/deportistas02 (OPT)" alt="Responsive image" class="img-circle img-thumbnail">
+                        
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/natacion01 (OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
-                                    <strong>Preparación Física para Deportistas</strong>
+                                    <strong>Natación</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                
-                            </div>
+                                <p class="pieFotoAct">En invierno y durante la temporada de verano.</p>
+                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                         <div class="center">
-                                <img src="img/afa01(OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
+
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/afa01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>AFA (Actividad física adaptada)</strong>
                                 </h4>
-                                <p>Problemas de columna, sobrepeso u obesidad</p>
-                                
+                                <p class="pieFotoAct">Problemas de columna, sobrepeso u obesidad</p>   
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                           <div class="center">
-                                <img src="img/escuelita01(OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
-                                <h4>
-                                    <strong>Escuelita Deportiva</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                
-                            </div>
-                        </div>
+
                     </div>
 
                     <!-- SE CIERRA PRIMER FILA DE ACTIVIDADES -->
@@ -250,52 +244,77 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <!-- SE ABRE SEGUNDA FILA DE ACTIVIDADES -->
 
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                         <div class="center">
-                                <img src="img/ritmo01(OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/musculacion01 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <h4>
+                                    <strong>Clases de Musculación</strong>
+                                </h4>
+                            </div>
+                        </div>
+
+              
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/deportistas02 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <h4>
+                                    <strong>Preparación Física para Deportistas</strong>
+                                </h4>   
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/escuelita01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <h4>
+                                    <strong>Escuelita Deportiva</strong>
+                                </h4>     
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SE CIERRA SEGUNDA FILA DE ACTIVIDADES -->
+
+                    <!-- SE ABRE TERCERA FILA DE ACTIVIDADES -->
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/ritmo01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Jornadas de Ritmos </strong>
                                 </h4>
-                                <p>Para niñas, adolescentes y adultos.</p>
+                                <p class="pieFotoAct">Para niñas, adolescentes y adultos.</p>
                                 
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                   <div class="center">
-                                <img src="img/natacion01 (OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
-                                <h4>
-                                    <strong>Natación</strong>
-                                </h4>
-                                <p>En invierno y durante la temporada de verano.</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                           <div class="center">
-                                <img src="img/colonia02(OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/colonia02(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Colonia de Invierno</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                
+                                </h4>  
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                           <div class="center">
-                                <img src="img/señoras02(OPT).jpg" alt="Responsive image" class="img-circle img-thumbnail">
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="center">
+                                <img src="img/señoras02(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Gimnasia para Señoras</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                
-                            </div>
                             </div>
                         </div>
+     
+                    </div>
+
                     </div>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
-            <!-- SE CIERRA SEGUNDA FILA DE ACTIVIDADES -->
+            <!-- SE CIERRA TERCERA FILA DE ACTIVIDADES -->
         </div>               
         
     </section>

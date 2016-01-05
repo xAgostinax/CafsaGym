@@ -41,9 +41,14 @@ h1{
     letter-spacing: 3px
 
 }
+h4{
+    font-size: 15px;
+}
 
 .resena{
     color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .fantasma {
 
@@ -80,6 +85,14 @@ h1{
 
 .fantasmaFila{
     margin-top: 40px;
+}
+
+.intro
+{
+    font-size: 35px;
+    font-family:  'Boogaloo', cursive;
+    letter-spacing: 1px;
+   
 }
 
 hr.star-light,
@@ -131,6 +144,10 @@ img{
      box-shadow: 3px 3px 6px #2c3e50;
   -webkit-box-shadow: 3px 3px 6px #2c3e50;
   -moz-box-shadow: 3px 3px 6px #2c3e50;
+}
+
+.pieFotoAct{
+    font-size: 13px;
 }
 
 .carousel-control {
