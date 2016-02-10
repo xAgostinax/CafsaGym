@@ -9,10 +9,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/Slideshow.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
     <link href="img/favicon" rel="shortcut icon" type="image/x-icon">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <style>
     .intro-section{
@@ -22,6 +24,7 @@
     }
 
      </style>
+
      <script type="text/JavaScript">
      $(document).ready(function() {
     $('#myCarousel').carousel({
@@ -30,13 +33,12 @@
     
     $('#myCarousel').on('slid.bs.carousel', function() {
         //alert("slid");
+    }); 
     });
-    
-    
-});
 
      </script>
 </head>
+
 <!--El id #page-top es parte de la funcion scrolling, data-spy y data-target forman parte de la funcion scrollspy de bootstrap -->
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -111,14 +113,12 @@
     
     <!-- About Section -->
     <section id="nosotros" class="nosotros-section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Reseña Historica</h1>
                     <hr class="star-light">
                     <p class="resena">  
-
-
 CAFSa comienza a gestarse allá por el año 2009, a través de clases que se dictaban en distintos hogares de personas de nuestra localidad, 
 que por diferentes motivos decidieron realizar actividad física, luego durante el año 2010 y parte del 2011 el CENTRO CULTURAL que tiene 
 Pérez Millán le abre las puertas  a la Prof. María Silvia Sosa, para que pudiera dictar clases en uno de los  salones con los que cuenta. 
@@ -129,70 +129,76 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!--CAROUSEL RESEÑA -->
+        </div>
         <div class="container">
-    <div class="col-md-12">
-        
-        <div class="well">
-            <div id="myCarousel" class="carousel slide">
-                
-                <!-- Carousel items -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="row">
-                            <div class="col-sm-3"><a href="#x"><img src="img/logo.jpg" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x"><img src="img/kiosco01.jpg" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <!--/row-->
-                    </div>
-                    <!--/item-->
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+            <div class="col-md-12">
+                <div id="carousel-1" class="carousel slide" data-ride = "carousel">
+                    <!--Indicadores -->
+                    <ol class="carousel-indicators">
+                        <!--ponemos el id del div -->
+                        <li data-target ="#carousel-1" data-slide-to="0" class="active"></li>
+                        <li data-target ="#carousel-1" data-slide-to="1"></li>
+                        <li data-target ="#carousel-1" data-slide-to="2"></li>
+                        <li data-target ="#carousel-1" data-slide-to="3"></li>
+                        <li data-target ="#carousel-1" data-slide-to="4"></li>
+                        <li data-target ="#carousel-1" data-slide-to="5"></li>
+                    </ol>
+                    <!--Contenedor de los slide -->
+                    <div class="carousel-inner" role = "listbox">
+                        <div class="item active">
+                            <img src="img/resena/1.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h3>Este es nuestro Slide #1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <!--/row-->
-                    </div>
-                    <!--/item-->
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <!--/row-->
-                    </div>
-                    <!--/item-->
-                </div>
-                <!--/carousel-inner--> 
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
 
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                         <div class="item">
+                            <img src="img/resena/2.jpg" class="img-responsive" alt="">
+                        </div>
+
+                         <div class="item">
+                            <img src="img/resena/3.jpg" class="img-responsive" alt="">
+                        </div>
+
+                         <div class="item">
+                            <img src="img/resena/4.JPG" class="img-responsive" alt="">
+                        </div>
+
+                         <div class="item">
+                            <img src="img/resena/5.jpg" class="img-responsive" alt="">
+                        </div>
+
+                         <div class="item">
+                            <img src="img/resena/6.jpg" class="img-responsive" alt="">
+                        </div>
+
+                    </div>
+
+                     <!--Controles -->
+                     <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+                         <span class="sr-only">Anterior</span>
+                     </a>
+
+                      <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                         <span class="sr-only">Siguiente</span>
+                     </a>
+                </div>
             </div>
-            <!--/myCarousel-->
         </div>
-        <!--/well-->
-    </div>
+     
+
+        <!--Comienzo slide RESEÑA -->
+<div class="container">
+  <div class="row">
+    
+  </div>
 </div>
+           <!-- Fin de Slide reseña-->
     </section>
 
     <!-- SECCION ACTIVIDADES -->
@@ -281,18 +287,18 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="center">
-                                <img src="img/ritmo01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/embarazadaOPT2.jpg" width="120" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
-                                    <strong>Jornadas de Ritmos </strong>
+                                    <strong>Gimnasia para Embarazadas</strong>
                                 </h4>
-                                <p class="pieFotoAct">Para niñas, adolescentes y adultos.</p>
+                                
                                 
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-4">
                             <div class="center">
-                                <img src="img/colonia02(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/coloniaOPT.jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Colonia de Invierno</strong>
                                 </h4>  
@@ -400,6 +406,49 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <script type="text/JavaScript">
+    var currentImage;
+var currentIndex = -1;
+var interval;
+function showImage(index){
+    if(index < $('#bigPic img').length){
+        var indexImage = $('#bigPic img')[index]
+        if(currentImage){   
+            if(currentImage != indexImage ){
+                $(currentImage).css('z-index',2);
+                clearTimeout(myTimer);
+                $(currentImage).fadeOut(250, function() {
+                    myTimer = setTimeout("showNext()", 3000);
+                    $(this).css({'display':'none','z-index':1})
+                });
+            }
+        }
+        $(indexImage).css({'display':'block', 'opacity':1});
+        currentImage = indexImage;
+        currentIndex = index;
+        $('#thumbs li').removeClass('active');
+        $($('#thumbs li')[index]).addClass('active');
+    }
+}
+
+function showNext(){
+    var len = $('#bigPic img').length;
+    var next = currentIndex < (len-1) ? currentIndex + 1 : 0;
+    showImage(next);
+}
+
+var myTimer;
+
+$(document).ready(function() {
+    myTimer = setTimeout("showNext()", 3000);
+    showNext(); //Load first image
+    $('#thumbs li').bind('click',function(e){
+        var count = $(this).attr('rel');
+        showImage(parseInt(count)-1);
+    });
+});
+    </script>
 
 </body>
 
