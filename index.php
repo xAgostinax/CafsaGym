@@ -7,14 +7,18 @@
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+	
 	<link href="css/scrolling-nav.css" rel="stylesheet">
-    <link href="css/Slideshow.css" rel="stylesheet">
+    
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
     <link href="img/favicon" rel="shortcut icon" type="image/x-icon">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    
 
     <style>
     .intro-section{
@@ -25,18 +29,6 @@
 
      </style>
 
-     <script type="text/JavaScript">
-     $(document).ready(function() {
-    $('#myCarousel').carousel({
-    interval: 10000
-    })
-    
-    $('#myCarousel').on('slid.bs.carousel', function() {
-        //alert("slid");
-    }); 
-    });
-
-     </script>
 </head>
 
 <!--El id #page-top es parte de la funcion scrolling, data-spy y data-target forman parte de la funcion scrollspy de bootstrap -->
@@ -101,7 +93,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                 <br>
-                     <p class="intro"> Centro de Actividad Física para la Salud </p>
+                     <p class="intro"> Centro de Actividad Física para la Salud</p>
                 <br>
                     <a class="btn btn-default page-scroll fantasma" href="#nosotros">Sobre Nosotros</a>
                 </div>
@@ -131,11 +123,13 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             </div>
 
         </div>
-        <div class="container">
-            <div class="col-md-12">
+        <div class="container" >
+            <div class="col-md-11" id="caro">
+
+
                 <div id="carousel-1" class="carousel slide" data-ride = "carousel">
                     <!--Indicadores -->
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators hidden-xs hidden-md">
                         <!--ponemos el id del div -->
                         <li data-target ="#carousel-1" data-slide-to="0" class="active"></li>
                         <li data-target ="#carousel-1" data-slide-to="1"></li>
@@ -148,33 +142,52 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <div class="carousel-inner" role = "listbox">
                         <div class="item active">
                             <img src="img/resena/1.jpg" class="img-responsive" alt="">
-                            <div class="carousel-caption">
-                                <h3>Este es nuestro Slide #1</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Titulos Obtenidos</h3>
+                                <p>nombrar algunos de los titulos!</p>
                             </div>
                         </div>
 
                          <div class="item">
                             <img src="img/resena/2.jpg" class="img-responsive" alt="">
+                              <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Entrenamiento Físico</h3>
+                                <br>
+                            </div>
                         </div>
 
                          <div class="item">
                             <img src="img/resena/3.jpg" class="img-responsive" alt="">
+                              <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>CAFSa GYM en calle Naciones Unidas, Pérez Millán</h3>
+                                <br>
+                            </div>
                         </div>
 
                          <div class="item">
                             <img src="img/resena/4.JPG" class="img-responsive" alt="">
+                              <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Natación en Invierno, club Los Andes</h3>
+                                <br>
+                            </div>
                         </div>
 
                          <div class="item">
                             <img src="img/resena/5.jpg" class="img-responsive" alt="">
+                              <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Gimnasia para Señoras</h3>
+                                <br>
+                            </div>
                         </div>
 
                          <div class="item">
                             <img src="img/resena/6.jpg" class="img-responsive" alt="">
+                              <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Jornada de Ritmo</h3>
+                                <br>
+                            </div>
                         </div>
-
-                    </div>
+                     </div>
 
                      <!--Controles -->
                      <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
@@ -187,6 +200,8 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                          <span class="sr-only">Siguiente</span>
                      </a>
+
+                   
                 </div>
             </div>
         </div>
@@ -407,6 +422,8 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+
+
     <script type="text/JavaScript">
     var currentImage;
 var currentIndex = -1;
@@ -450,8 +467,10 @@ $(document).ready(function() {
 });
     </script>
 
+
+
 </body>
 
 	
-</body>
+
 </html>
