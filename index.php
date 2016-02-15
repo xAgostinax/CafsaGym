@@ -20,6 +20,8 @@
 
     
 
+    
+
     <style>
     .intro-section{
           background-image: url(img/imagen.png);
@@ -371,32 +373,29 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             </div>
 
         <div class="col-lg-12 col-lg-offset-1">
-           <form class="form-horizontal">
-                <div class="form-group form-group-lg">
-                    <label for="inputEmail3" class="col-sm-2 label-custom control-label ">Nombre</label>
+
+           <form class="form-horizontal" id="contactForm">
+                <div class="form-group form-group-lg has-danger">
+                    <label for="name" class="col-sm-2 label-custom control-label ">Nombre</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Ingrese su Nombre">
+                        <input type="text" class="form-control" id="name" placeholder="Ingrese su Nombre" required>
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
 
-                <div class="form-group form-group-lg">
+                <div class="form-group form-group-lg has-danger">
                     <label for="inputEmail3" class="col-sm-2 control-label label-custom">Email</label>
                     <div class="col-sm-6">
-                          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Ingrese su Email">
+                          <input type="email" class="form-control" id="email" placeholder="Ingrese su Email" required>
+                          <div class="help-block with-errors"></div>
                     </div>
                 </div>
 
-                <div class="form-group form-group-lg">
-                  <label for="inputEmail3" class="col-sm-2 control-label label-custom">Asunto</label>
-                  <div class="col-sm-6">
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Ingrese el Asunto">
-                  </div>
-                </div>
 
-                <div class="form-group form-group-lg">
+                <div class="form-group form-group-lg has-danger">
                   <label for="inputEmail3" class="col-sm-2 control-label label-custom">Mensaje</label>
                   <div class="col-sm-6">
-                        <textarea class="form-control" rows="5" placeholder="Escriba su Consulta" ></textarea>
+                        <textarea id="message" class="form-control" rows="5" placeholder="Escriba su Consulta" required></textarea>
                   </div>
                 </div>
           
@@ -404,6 +403,8 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                    <div class="col-lg-12 ">
                        <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-default btn-lg">
+                       <div id="msgSubmit" class="h3 text-center hidden">Mensaje Enviado!</div>
+                       <div id="msgError" class="h3 text-center hidden">Algo anda Mal!</div>
                    </div>
                 </div>
 
@@ -414,6 +415,10 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
     </section>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/jquery_contact.js"></script>
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
