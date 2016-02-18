@@ -29,6 +29,20 @@
           background-position: 110% 60%
     }
 
+    @media(max-width:767px) {
+
+          .intro-section{
+                         background-image: none;
+                         padding-top: 100px;
+
+    }
+          .intro{
+                  font-size: 22px;
+          }
+
+
+}
+
      </style>
 
 </head>
@@ -112,7 +126,7 @@
                 <div class="col-lg-12">
                     <h1>Reseña Historica</h1>
                     <hr class="star-light">
-                    <p class="resena">  
+                    <p class="parrafo-seccion">  
 CAFSa comienza a gestarse allá por el año 2009, a través de clases que se dictaban en distintos hogares de personas de nuestra localidad, 
 que por diferentes motivos decidieron realizar actividad física, luego durante el año 2010 y parte del 2011 el CENTRO CULTURAL que tiene 
 Pérez Millán le abre las puertas  a la Prof. María Silvia Sosa, para que pudiera dictar clases en uno de los  salones con los que cuenta. 
@@ -126,10 +140,10 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
         </div>
         <div class="container" >
-            <div class="col-md-11" id="caro">
+            <div class="col-md-11"  id="caro">
 
 
-                <div id="carousel-1" class="carousel slide" data-ride = "carousel">
+                <div id="carousel-1" class="sombras" class="carousel slide" data-ride = "carousel">
                     <!--Indicadores -->
                     <ol class="carousel-indicators hidden-xs hidden-md">
                         <!--ponemos el id del div -->
@@ -141,7 +155,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         <li data-target ="#carousel-1" data-slide-to="5"></li>
                     </ol>
                     <!--Contenedor de los slide -->
-                    <div class="carousel-inner" role = "listbox">
+                    <div class="carousel-inner"  role = "listbox">
                         <div class="item active">
                             <img src="img/resena/1.jpg" class="img-responsive" alt="">
                             <div class="carousel-caption hidden-xs hidden-sm">
@@ -230,7 +244,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
         <!--SE ABRE PRIMER FILA DE ACTIVIDADES-->
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/ritmo01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Jornadas de Ritmos </strong>
@@ -240,7 +254,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
                         
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/natacion01 (OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Natación</strong>
@@ -251,7 +265,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
 
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/afa01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>AFA (Actividad física adaptada)</strong>
@@ -268,7 +282,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/musculacion01 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Clases de Musculación</strong>
@@ -278,7 +292,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
               
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/deportistas02 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Preparación Física para Deportistas</strong>
@@ -288,7 +302,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
 
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/escuelita01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Escuelita Deportiva</strong>
@@ -303,7 +317,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/embarazadaOPT2.jpg" width="120" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Gimnasia para Embarazadas</strong>
@@ -314,7 +328,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/coloniaOPT.jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Colonia de Invierno</strong>
@@ -323,7 +337,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                         <div class="col-md-4 col-sm-4">
-                            <div class="center">
+                            <div class="center act">
                                 <img src="img/señoras02(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Gimnasia para Señoras</strong>
@@ -342,15 +356,126 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
         
     </section>
 
-    <!-- Contact Section -->
+    <!-- SECCION NOVEDADES -->
     <section id="novedades" class="novedades-section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Seccion Novedades</h1>
+                    <h1>Novedades</h1>
+                     <hr class="star-light">
                 </div>
+                <p class="parrafo-seccion">
+                    Una dieta sana y equilibrada es la que permite que nuestro organismo funcione de manera óptima. Para lograrlo, es fundamental que se base en alimentos que potencien el buen funcionamiento de nuestro organismo.
+                    Por tal motivo CAFSa penso en vos e incorporo un <strong>kiosko saludable</strong> , donde podes encontrar alimentos para tus meriendas, desayunos y colaciones para ayudarte a que tengas una sana alimentacion.               
+                </p>
+            </div>
+
+            <div class="row">
+            <!-- Comienzo Primera fila de alimentos-->
+                <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal1" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/1.jpg" class="img-responsive" alt="">
+                    </a>        
+                </div>
+
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal1" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Merienda Saludable</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Merienda saludable para adultos. La merienda contiende un mate CAFSa junto a una bolcita de yerba libre de polvo, cereales ,tutucas, etc,etc,etc.</p>
+                                <img src="img/alimentos/11.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+
+
+                   <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal2" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/2.jpg" class="img-responsive" alt="">
+                    </a>  
+                        
+                    
+                </div>
+
+                    <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal3" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/3.jpg" class="img-responsive" alt="">
+                    </a>  
+                        
+                    
+                </div>
+                <!-- Fin primera fila de alimentos-->
+                <!-- Comienzo Segunda fila de alimentos-->
+
+                  <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal4" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/444.jpg" class="img-responsive" alt="">
+                    </a>  
+                        
+                    
+                </div>
+
+                 <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal5" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/5.jpg" class="img-responsive" alt="">
+                    </a>  
+                        
+                    
+                </div>
+
+                <div class="col-sm-4 novedades-item">
+                      <a href="#novedadesModal6" class="novedades-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alimentos/6.jpg" class="img-responsive" alt="">
+                    </a>       
+                </div>
+
             </div>
         </div>
+
     </section>
 
     <!-- Contact Section -->
@@ -413,6 +538,53 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
         </div>
     </section>
+
+    <footer class="text-center">
+        <div class="footer-above pie">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery_contact.js"></script>

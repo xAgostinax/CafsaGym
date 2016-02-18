@@ -48,7 +48,7 @@ h4{
     font-size: 15px;
 }
 
-.resena{
+.parrafo-seccion{
     color: #2c3e50;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -142,7 +142,7 @@ strong{
     color: #2c3e50;
 }
 
-img{
+.act img{
      margin-top: 10px;
      box-shadow: 3px 3px 6px #2c3e50;
   -webkit-box-shadow: 3px 3px 6px #2c3e50;
@@ -176,6 +176,81 @@ img{
     margin-left: 30px;
 
 }
+
+.novedades-item {
+    right: 0;
+    margin: 0 0 20px;
+}
+
+.novedades-item .novedades-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.novedades-link img{
+         box-shadow: 3px 3px 6px #2c3e50;
+         -webkit-box-shadow: 3px 3px 6px #2c3e50;
+         -moz-box-shadow: 3px 3px 6px #2c3e50;
+         border-radius: 3%;
+}
+.novedades-item .novedades-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+    background: rgba(0, 41, 69, 0.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.novedades-item .novedades-link .caption:hover {
+    opacity: 1;
+}
+
+.novedades-item .novedades-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+ .novedades-item .novedades-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+ .novedades-item .novedades-link .caption .caption-content h3,
+.novedades-item .novedades-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+
+
+@media(max-width:767px) {
+          .novedades-item {
+        margin: 0 0 10px;
+
+    }
+
+    .intro-section{
+     background-image: none;
+    }
+
+
+}
+
+.pie{
+    background: #2c3e50;
+}
+
+
 
 
 
