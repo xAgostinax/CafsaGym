@@ -545,10 +545,10 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>Perez Millan<br>Mitre 360</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Redes sociales</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -568,8 +568,8 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Sobre el GYM</h3>
+                     
                     </div>
                 </div>
             </div>
@@ -578,7 +578,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; UCEL 2016
                     </div>
                 </div>
             </div>
