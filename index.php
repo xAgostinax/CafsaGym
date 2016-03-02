@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CAFSa GYM</title>
-    <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo" />
+    <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo"/>
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
