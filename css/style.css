@@ -44,6 +44,12 @@ h1{
     letter-spacing: 3px
 
 }
+
+.thumbnail h3{
+    color: #2c3e50;
+}
+
+#articulos h1{text-align: center;}
 h4{
     font-size: 15px;
 }
@@ -79,6 +85,7 @@ h4{
     /* animamos el cambio de colores */
     -webkit-transition: color 300ms, background 500ms, border-color 700ms;
     transition: color 300ms, background 500ms, border-color 700ms;
+
 }
 .fantasma:hover {
     background: #2c3e50;
@@ -95,6 +102,7 @@ h4{
     font-size: 35px;
     font-family:  'Boogaloo', cursive;
     letter-spacing: 1px;
+    padding-bottom: 50px;
    
 }
 
@@ -246,10 +254,49 @@ strong{
 
 }
 
-.pie{
-    background: #2c3e50;
+.links-articulos{
+    margin-top: 50px;
 }
 
+.img-art{
+      box-shadow: 8px 5px 20px #aaa; 
+   
+  background-color:#ddd;
+ 
+}
+
+.pie{
+    background: #2c3e50;
+
+}
+
+.fila-footer{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.titulo-pie{
+    font-size: 18px;
+    color: #F0FFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.parrafo-pie{
+    color: #F0FFFF;
+}
+
+.fa-mobile {
+    color: #F0FFFF;
+}
+.fa-envelope-o{
+    color: #F0FFFF;
+}
+
+.footer-col span{
+    color: #fff;
+}
 
 
 

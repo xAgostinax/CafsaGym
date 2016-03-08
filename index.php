@@ -18,10 +18,6 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-    
-
-    
-
     <style>
     .intro-section{
           background-image: url(img/imagen.png);
@@ -34,17 +30,13 @@
           .intro-section{
                          background-image: none;
                          padding-top: 100px;
-
-    }
+                        }
           .intro{
                   font-size: 22px;
-          }
+                }
 
-
-}
-
-     </style>
-
+                             }
+    </style>
 </head>
 
 <!--El id #page-top es parte de la funcion scrolling, data-spy y data-target forman parte de la funcion scrollspy de bootstrap -->
@@ -143,7 +135,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             <div class="col-md-11"  id="caro">
 
 
-                <div id="carousel-1" class="sombras" class="carousel slide" data-ride = "carousel">
+                <div id="carousel-1" class="carousel slide" data-ride = "carousel">
                     <!--Indicadores -->
                     <ol class="carousel-indicators hidden-xs hidden-md">
                         <!--ponemos el id del div -->
@@ -221,15 +213,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 </div>
             </div>
         </div>
-     
 
-        <!--Comienzo slide RESEÑA -->
-<div class="container">
-  <div class="row">
-    
-  </div>
-</div>
-           <!-- Fin de Slide reseña-->
     </section>
 
     <!-- SECCION ACTIVIDADES -->
@@ -394,7 +378,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>Merienda saludable para adultos. La merienda contiende un mate CAFSa junto a una bolcita de yerba libre de polvo, cereales ,tutucas, etc,etc,etc.</p>
-                                <img src="img/alimentos/11.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal1.jpg" class="img-responsive center-block">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -408,7 +392,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
 
 
-                   <div class="col-sm-4 novedades-item">
+                <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal2" class="novedades-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -416,12 +400,33 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             </div>
                         </div>
                         <img src="img/alimentos/2.jpg" class="img-responsive" alt="">
-                    </a>  
-                        
-                    
+                    </a>     
                 </div>
 
-                    <div class="col-sm-4 novedades-item">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal2" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Desayunos y Merienda Saludable para niños</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Una taza, un yogurt, una barra de cereal, un alfajor de algarroba, bolitas de chocolate, tutucas, copos de maíz con azúcar y aritos de miel.</p>
+                                <img src="img/alimentos/modal2.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+                <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal3" class="novedades-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -430,24 +435,70 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
                         <img src="img/alimentos/3.jpg" class="img-responsive" alt="">
                     </a>  
-                        
-                    
                 </div>
+
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal3" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Desayunos saludables para adultos</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>AGREGAR DESCRIPCION</p>
+                                <img src="img/alimentos/modal3.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+
+
                 <!-- Fin primera fila de alimentos-->
                 <!-- Comienzo Segunda fila de alimentos-->
 
-                  <div class="col-sm-4 novedades-item">
+                <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal4" class="novedades-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/444.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/4.jpg" class="img-responsive" alt="">
                     </a>  
-                        
-                    
                 </div>
+
+
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal4" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Tentempié</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Copos de maíz sin azucar y con azúcar, bolitas de chocolates, cuadraditos de salvado, cereal free, aritos multifrutales y de miel, tutucas.  <br> Galletitas con semillas de chía, barras de cereales, mix de semillas y alfajor de algarroba</p>
+                                <img src="img/alimentos/modal4.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
 
                  <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal5" class="novedades-link" data-toggle="modal">
@@ -458,9 +509,30 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
                         <img src="img/alimentos/5.jpg" class="img-responsive" alt="">
                     </a>  
-                        
-                    
                 </div>
+
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal5" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Kiosco Saludable</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p></p>
+                                <img src="img/alimentos/modal5.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
 
                 <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal6" class="novedades-link" data-toggle="modal">
@@ -473,6 +545,29 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     </a>       
                 </div>
 
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal6" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Todo lo que Ofrecemos</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Regalar un desayuno o merienda saludable a un ser querido, es una linda opción!</p>
+                                <img src="img/alimentos/modal6.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="modal-footer">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
             </div>
         </div>
 
@@ -483,7 +578,44 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Seccion Articulos</h1>
+                      <h1>Articulos</h1>
+                    <hr class="star-primary"></hr> 
+                    <div class="row links-articulos">
+                        <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class="img-art" src="img/articulos/3.jpg" alt="...">
+                            <div class="caption">
+                            <h3>Actividad Física en el Embarazo</h3>
+                            <p>La actividad física durante el embarazo ha demostrado ser beneficiosa tanto para la madre como para el bebé.Son muchas las razones para asegurar que la actividad física es muy recomendable durante el embarazo...</p>
+                            <p> <a class="btn btn-default" href="http://www.babysitio.com/embarazo/actividad_fisica_benef.php" target="_blank">Leer más <i class="fa fa-plus"></i></a></p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class="img-art" src="img/articulos/1opt.jpg" alt="...">
+                            <div class="caption">
+                            <h3>Alimentación Saludable</h3>
+                            <br>
+                            <p>La alimentación saludable es la dieta que ayuda al buen funcionamiento del organismo. Por lo general implica la ingesta de alimentos variados para recibir todo tipo de nutrientes. Ademas se ha demostrado que previene el desarrollo de enfermedades..</p>
+                            <p> <a class="btn btn-default" href="http://www.msal.gob.ar/ent/index.php/informacion-para-ciudadanos/alimentacion-saludable" target="_blank">Leer más <i class="fa fa-plus"></i></a></p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class="img-art" src="img/articulos/22.jpg" alt="...">
+                            <div class="caption">
+                            <h3>El Deporte en los Niños</h3>
+                            <br>
+                            <p>El ejercicio regular favorece el buen desarrollo físico y mental de los niños. Les ayuda a integrarse más socialmente y a adquirir unos valores fundamentales, además de colaborar en el correcto desarrollo de sus huesos y músculos...</p>
+                            <p> <a class="btn btn-default" href="http://www.guiainfantil.com/servicios/Deportes/beneficios.htm" target="_blank">Leer más <i class="fa fa-plus"></i></a></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -521,6 +653,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                   <label for="inputEmail3" class="col-sm-2 control-label label-custom">Mensaje</label>
                   <div class="col-sm-6">
                         <textarea id="message" class="form-control" rows="5" placeholder="Escriba su Consulta" required></textarea>
+                        <div class="help-block with-errors"></div>
                   </div>
                 </div>
           
@@ -542,33 +675,26 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
     <footer class="text-center">
         <div class="footer-above pie">
             <div class="container">
-                <div class="row">
+                <div class="row fila-footer">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Perez Millan<br>Mitre 360</p>
+                        <p class="titulo-pie">Ubicación</p>
+                        <p class="parrafo-pie">Perez Millan, Bs As<br>Naciones Unidas 360</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Redes sociales</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
+                        <p class="titulo-pie">Contactame</p>
+                     
+                                <i class="fa fa-mobile fa-2x"></i>
+                                <span>03329-156789</span>
+                                <br>
+                       
+                                <i class="fa fa-envelope-o fa-lg"></i>
+                                <span>maria_silvia_sosa@hotmail.com</span>
+                   
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Sobre el GYM</h3>
+                        <p class="titulo-pie">Sobre el GYM</p>
+                        <p class="parrafo-pie">Somos un centro de actividad fisica con 7 de años de trayectoria, a cargo de la
+                        Prof. Maria Silvia Sosa.</p>
                      
                     </div>
                 </div>
