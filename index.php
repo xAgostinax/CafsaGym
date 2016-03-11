@@ -88,12 +88,12 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
+    <!-- Seccion Intro -->
     <section id="intro" class="intro-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                   <h1><img src="img/logo_opt.jpg" width="300" height="300" alt="..." class="img-circle"></h1>
+                   <h1><img src="img/logo_opt.jpg" width="300" height="300" alt="Cafsa" class="img-circle"></h1>
                   
                 </div>
             </div>
@@ -111,7 +111,7 @@
         </div>
     </section>
     
-    <!-- About Section -->
+    <!-- Seccion Nosotros -->
     <section id="nosotros" class="nosotros-section">
         <div class="container-fluid">
             <div class="row">
@@ -149,7 +149,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <!--Contenedor de los slide -->
                     <div class="carousel-inner"  role = "listbox">
                         <div class="item active">
-                            <img src="img/resena/1.jpg" class="img-responsive" alt="">
+                            <img src="img/resena/1.jpg" class="img-responsive" alt="Titulos">
                             <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>Titulos Obtenidos</h3>
                                 <p>nombrar algunos de los titulos!</p>
@@ -157,7 +157,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/2.jpg" class="img-responsive" alt="">
+                            <img src="img/resena/2.jpg" class="img-responsive" alt="Entrenamiento">
                               <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>Entrenamiento Físico</h3>
                                 <br>
@@ -165,7 +165,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/3.jpg" class="img-responsive" alt="">
+                            <img src="img/resena/3.jpg" class="img-responsive" alt="Instalaciones Gym">
                               <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>CAFSa GYM en calle Naciones Unidas, Pérez Millán</h3>
                                 <br>
@@ -173,7 +173,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/4.JPG" class="img-responsive" alt="">
+                            <img src="img/resena/4.JPG" class="img-responsive" alt="Natacion en Invierno">
                               <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>Natación en Invierno, club Los Andes</h3>
                                 <br>
@@ -181,7 +181,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/5.jpg" class="img-responsive" alt="">
+                            <img src="img/resena/5.jpg" class="img-responsive" alt="Gym Señoras">
                               <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>Gimnasia para Señoras</h3>
                                 <br>
@@ -189,7 +189,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/6.jpg" class="img-responsive" alt="">
+                            <img src="img/resena/6.jpg" class="img-responsive" alt="Jornada Ritmo">
                               <div class="carousel-caption hidden-xs hidden-sm">
                                 <h3>Jornada de Ritmo</h3>
                                 <br>
@@ -223,13 +223,13 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Actividades</h1>
-                    <hr class="star-primary"></hr>    
+                    <hr class="star-primary">   
 
         <!--SE ABRE PRIMER FILA DE ACTIVIDADES-->
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/ritmo01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades1.jpg" width="150" height="150" alt="Ritmo" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Jornadas de Ritmos </strong>
                                 </h4>
@@ -239,7 +239,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/natacion01 (OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades2.jpg" width="150" height="150" alt="Natacin" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Natación</strong>
                                 </h4>
@@ -250,7 +250,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/afa01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades3.jpg" width="150" height="150" alt="AFA" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>AFA (Actividad física adaptada)</strong>
                                 </h4>
@@ -267,7 +267,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/musculacion01 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades4.jpg" width="150" height="150" alt="Musculacion" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Clases de Musculación</strong>
                                 </h4>
@@ -277,7 +277,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
               
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/deportistas02 (OPT)" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades5.jpg" width="150" height="150" alt="Preparacion fisica" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Preparación Física para Deportistas</strong>
                                 </h4>   
@@ -287,7 +287,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/escuelita01(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades6.jpg" width="150" height="150" alt="Escuela deportiva" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Escuelita Deportiva</strong>
                                 </h4>     
@@ -302,7 +302,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/embarazadaOPT2.jpg" width="120" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades7.jpg" width="120" height="150" alt="Gym Embarazadas" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Gimnasia para Embarazadas</strong>
                                 </h4>
@@ -313,7 +313,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/coloniaOPT.jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades8.jpg" width="150" height="150" alt="Colonia Invierno" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Colonia de Invierno</strong>
                                 </h4>  
@@ -322,7 +322,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/señoras02(OPT).jpg" width="150" height="150" alt="Responsive image" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades9.jpg" width="150" height="150" alt="Gym Señoras" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Gimnasia para Señoras</strong>
                                 </h4>
@@ -336,8 +336,6 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 <!-- /.col-lg-10 -->
             </div>
             <!-- SE CIERRA TERCERA FILA DE ACTIVIDADES -->
-        </div>               
-        
     </section>
 
     <!-- SECCION NOVEDADES -->
@@ -363,11 +361,11 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/1.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/1.jpg" class="img-responsive" alt="Merienda Saludable">
                     </a>        
                 </div>
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal1" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal1" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -378,7 +376,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>Merienda saludable para adultos. La merienda contiende un mate CAFSa junto a una bolcita de yerba libre de polvo, cereales ,tutucas, etc,etc,etc.</p>
-                                <img src="img/alimentos/modal1.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal1.jpg" class="img-responsive center-block" alt="Merienda Saludable">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -390,8 +388,6 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     </div><!-- /.modal-dialog -->
                 </div><!-- /.modal -->
 
-
-
                 <div class="col-sm-4 novedades-item">
                       <a href="#novedadesModal2" class="novedades-link" data-toggle="modal">
                         <div class="caption">
@@ -399,11 +395,11 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/2.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/2.jpg" class="img-responsive" alt="Desayunos">
                     </a>     
                 </div>
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal2" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal2" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -414,7 +410,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>Una taza, un yogurt, una barra de cereal, un alfajor de algarroba, bolitas de chocolate, tutucas, copos de maíz con azúcar y aritos de miel.</p>
-                                <img src="img/alimentos/modal2.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal2.jpg" class="img-responsive center-block" alt="Desayunos">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -433,11 +429,11 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/3.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/3.jpg" class="img-responsive" alt="Desayuno">
                     </a>  
                 </div>
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal3" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal3" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -448,7 +444,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>AGREGAR DESCRIPCION</p>
-                                <img src="img/alimentos/modal3.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal3.jpg" class="img-responsive center-block" alt="Desayuno">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -460,8 +456,6 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                     </div><!-- /.modal-dialog -->
                 </div><!-- /.modal -->
 
-
-
                 <!-- Fin primera fila de alimentos-->
                 <!-- Comienzo Segunda fila de alimentos-->
 
@@ -472,12 +466,12 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/4.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/4.jpg" class="img-responsive" alt="Tentempie">
                     </a>  
                 </div>
 
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal4" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal4" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -488,7 +482,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>Copos de maíz sin azucar y con azúcar, bolitas de chocolates, cuadraditos de salvado, cereal free, aritos multifrutales y de miel, tutucas.  <br> Galletitas con semillas de chía, barras de cereales, mix de semillas y alfajor de algarroba</p>
-                                <img src="img/alimentos/modal4.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal4.jpg" class="img-responsive center-block" alt="tentempie">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -507,11 +501,11 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/5.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/5.jpg" class="img-responsive" alt="Kiosco">
                     </a>  
                 </div>
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal5" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal5" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -522,7 +516,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p></p>
-                                <img src="img/alimentos/modal5.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal5.jpg" class="img-responsive center-block" alt="kiosco">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -541,11 +535,11 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/alimentos/6.jpg" class="img-responsive" alt="">
+                        <img src="img/alimentos/6.jpg" class="img-responsive" alt="Kiosco">
                     </a>       
                 </div>
 
-                <div class="modal fade bs-example-modal-lg" id="novedadesModal6" aria-labelledb="ModalLabel"  tabindex="-1" role="dialog">
+                <div class="modal fade bs-example-modal-lg" id="novedadesModal6" tabindex="-1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
 
@@ -556,7 +550,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
                             <div class="modal-body">
                                 <p>Regalar un desayuno o merienda saludable a un ser querido, es una linda opción!</p>
-                                <img src="img/alimentos/modal6.jpg" class="img-responsive center-block">
+                                <img src="img/alimentos/modal6.jpg" class="img-responsive center-block" alt="kiosco">
                             </div>
                             <div class="modal-footer">
                                 <div class="col-sm-10 col-sm-offset-1">
@@ -579,7 +573,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             <div class="row">
                 <div class="col-lg-12">
                       <h1>Articulos</h1>
-                    <hr class="star-primary"></hr> 
+                    <hr class="star-primary">
                     <div class="row links-articulos">
                         <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
@@ -628,9 +622,12 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 <h1>Contacto</h1>
                 <hr class="star-light">
             </div>
-
+        <br><br>
+       
+         <br>
         <div class="col-lg-12 col-lg-offset-1">
-
+          
+          
            <form class="form-horizontal" id="contactForm">
                 <div class="form-group form-group-lg has-danger">
                     <label for="name" class="col-sm-2 label-custom control-label ">Nombre</label>
@@ -641,7 +638,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 </div>
 
                 <div class="form-group form-group-lg has-danger">
-                    <label for="inputEmail3" class="col-sm-2 control-label label-custom">Email</label>
+                    <label class="col-sm-2 control-label label-custom">Email</label>
                     <div class="col-sm-6">
                           <input type="email" class="form-control" id="email" placeholder="Ingrese su Email" required>
                           <div class="help-block with-errors"></div>
@@ -650,19 +647,20 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
 
 
                 <div class="form-group form-group-lg has-danger">
-                  <label for="inputEmail3" class="col-sm-2 control-label label-custom">Mensaje</label>
+                  <label class="col-sm-2 control-label label-custom">Mensaje</label>
                   <div class="col-sm-6">
                         <textarea id="message" class="form-control" rows="5" placeholder="Escriba su Consulta" required></textarea>
                         <div class="help-block with-errors"></div>
                   </div>
                 </div>
-          
-                <div class="form-group">
-
+                <div class="col-sm-8">
+                     <div id="msgSubmit" class="h3 text-center hidden"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp&nbspMensaje Enviado con Exito!</div>
+                </div>
+                
+                <div class="form-group">                
                    <div class="col-lg-12 ">
+                           <div id="msgError" class="h3 text-center hidden">Algo anda Mal!</div>
                        <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-default btn-lg">
-                       <div id="msgSubmit" class="h3 text-center hidden">Mensaje Enviado!</div>
-                       <div id="msgError" class="h3 text-center hidden">Algo anda Mal!</div>
                    </div>
                 </div>
 
@@ -684,7 +682,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         <p class="titulo-pie">Contactame</p>
                      
                                 <i class="fa fa-mobile fa-2x"></i>
-                                <span>03329-156789</span>
+                                <span>03329-15596229</span>
                                 <br>
                        
                                 <i class="fa fa-envelope-o fa-lg"></i>
@@ -711,69 +709,12 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
         </div>
     </footer>
 
-    <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery_contact.js"></script>
-    <script type="text/javascript" src="js/validator.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-
-
-    <!-- Bootstrap Core JavaScript -->
+    <script src="js/validator.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
-
-
-    <script type="text/JavaScript">
-    var currentImage;
-var currentIndex = -1;
-var interval;
-function showImage(index){
-    if(index < $('#bigPic img').length){
-        var indexImage = $('#bigPic img')[index]
-        if(currentImage){   
-            if(currentImage != indexImage ){
-                $(currentImage).css('z-index',2);
-                clearTimeout(myTimer);
-                $(currentImage).fadeOut(250, function() {
-                    myTimer = setTimeout("showNext()", 3000);
-                    $(this).css({'display':'none','z-index':1})
-                });
-            }
-        }
-        $(indexImage).css({'display':'block', 'opacity':1});
-        currentImage = indexImage;
-        currentIndex = index;
-        $('#thumbs li').removeClass('active');
-        $($('#thumbs li')[index]).addClass('active');
-    }
-}
-
-function showNext(){
-    var len = $('#bigPic img').length;
-    var next = currentIndex < (len-1) ? currentIndex + 1 : 0;
-    showImage(next);
-}
-
-var myTimer;
-
-$(document).ready(function() {
-    myTimer = setTimeout("showNext()", 3000);
-    showNext(); //Load first image
-    $('#thumbs li').bind('click',function(e){
-        var count = $(this).attr('rel');
-        showImage(parseInt(count)-1);
-    });
-});
-    </script>
-
-
-
 </body>
-
-	
-
 </html>
