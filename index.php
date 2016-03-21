@@ -2,8 +2,11 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>CAFSa GYM</title>
+	<title>CAFSa GYM | Gimnasio, en Perez Milllan</title>
     <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo"/>
+    <meta name="description" content="Somos un centro de actividad fisica con 7 de años de trayectoria. Gimnasio Cafsa a cargo de la
+                        Prof. Maria Silvia Sosa." />
+    <meta name="keywords" content="cafsa,gimnasio,gimnasios,gimnasio,gym,actividad fisica,escuela deportiva,ritmo,colonia de invierno,gimnasia para embarazadas,alimentacion saludable">
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,7 +96,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                   <h1><img src="img/logo_opt.jpg" width="300" height="300" alt="Cafsa" class="img-circle"></h1>
+                   <h1><img src="img/logo_opt.jpg" width="300" height="300" alt="Cafsa Gimnasio" class="img-circle"></h1>
                   
                 </div>
             </div>
@@ -239,7 +242,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         
                         <div class="col-md-4 col-sm-4">
                             <div class="center act">
-                                <img src="img/actividades/actividades2.jpg" width="150" height="150" alt="Natacin" class="img-circle img-thumbnail">
+                                <img src="img/actividades/actividades2.jpg" width="150" height="150" alt="Natacion" class="img-circle img-thumbnail">
                                 <h4>
                                     <strong>Natación</strong>
                                 </h4>
@@ -654,7 +657,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                   </div>
                 </div>
                 <div class="col-sm-8">
-                     <div id="msgSubmit" class="h3 text-center hidden"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp&nbspMensaje Enviado con Exito!</div>
+                     <div id="msgSubmit" class="h3 text-center hidden"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Mensaje Enviado con Exito!</div>
                 </div>
                 
                 <div class="form-group">                
