@@ -23,7 +23,7 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
  
-$EmailTo = "agostina_rodriguez@hotmail.com";
+$EmailTo = "maria_silvia_sosa@hotmail.com";
 $Subject = "Msj de la Pagina CAFSa";
  
 //Prepara el cuerpo del mensaje

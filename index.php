@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>CAFSa GYM | Gimnasio, en Perez Milllan</title>
     <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo"/>
-    <meta name="description" content="Somos un centro de actividad fisica con 7 de años de trayectoria. Gimnasio Cafsa a cargo de la
-                        Prof. Maria Silvia Sosa." />
+    <meta name="description" content="Somos un centro de actividad fisica con 7 de años de trayectoria. Gimnasio Cafsa a cargo de la Prof. Maria Silvia Sosa." />
     <meta name="keywords" content="cafsa,gimnasio,gimnasios,gimnasio,gym,actividad fisica,escuela deportiva,ritmo,colonia de invierno,gimnasia para embarazadas,alimentacion saludable">
 	 <!--Para renderizar en IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
     
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
-    <link href="img/favicon" rel="shortcut icon" type="image/x-icon">
+    <link href="img/favi.ico" rel="shortcut icon" type="image/x-icon">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
@@ -79,7 +78,7 @@
                         <a class="page-scroll" href="#novedades">Novedades</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#articulos">Articulos</a>
+                        <a class="page-scroll" href="#articulos">Artículos</a>
                     </li>
                      <li>
                         <a class="page-scroll" href="#contacto">Contacto</a>
@@ -119,7 +118,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Reseña Historica</h1>
+                    <h1>Reseña Histórica</h1>
                     <hr class="star-light">
                     <p class="parrafo-seccion">  
 CAFSa comienza a gestarse allá por el año 2009, a través de clases que se dictaban en distintos hogares de personas de nuestra localidad, 
@@ -154,8 +153,8 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         <div class="item active">
                             <img src="img/resena/1.jpg" class="img-responsive" alt="Titulos">
                             <div class="carousel-caption hidden-xs hidden-sm">
-                                <h3>Titulos Obtenidos</h3>
-                                <p>nombrar algunos de los titulos!</p>
+                                <h3>Títulos Obtenidos</h3>
+                                
                             </div>
                         </div>
 
@@ -176,9 +175,9 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                         </div>
 
                          <div class="item">
-                            <img src="img/resena/4.JPG" class="img-responsive" alt="Natacion en Invierno">
+                            <img src="img/resena/4.jpg" class="img-responsive" alt="Natacion en Invierno">
                               <div class="carousel-caption hidden-xs hidden-sm">
-                                <h3>Natación en Invierno, club Los Andes</h3>
+                                <h3>Natación en Invierno, Club Los Andes</h3>
                                 <br>
                             </div>
                         </div>
@@ -378,7 +377,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             </div>
 
                             <div class="modal-body">
-                                <p>Merienda saludable para adultos. La merienda contiende un mate CAFSa junto a una bolcita de yerba libre de polvo, cereales ,tutucas, etc,etc,etc.</p>
+                                <p>Merienda saludable para adultos. La merienda contiende un mate CAFSa junto a una bolsa de yerba con hierbas, cereal free, copos de maiz sin azucar y barrita de cereal.</p>
                                 <img src="img/alimentos/modal1.jpg" class="img-responsive center-block" alt="Merienda Saludable">
                             </div>
                             <div class="modal-footer">
@@ -412,7 +411,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             </div>
 
                             <div class="modal-body">
-                                <p>Una taza, un yogurt, una barra de cereal, un alfajor de algarroba, bolitas de chocolate, tutucas, copos de maíz con azúcar y aritos de miel.</p>
+                                <p>Una taza CAFSa, un yogurt, una barra de cereal, un alfajor de algarroba, bolitas de chocolate, tutucas, copos de maíz con azúcar y aritos de miel.</p>
                                 <img src="img/alimentos/modal2.jpg" class="img-responsive center-block" alt="Desayunos">
                             </div>
                             <div class="modal-footer">
@@ -446,7 +445,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             </div>
 
                             <div class="modal-body">
-                                <p>AGREGAR DESCRIPCION</p>
+                                <p>Una taza CAFSa, variedad de te, cuadraditos de salvado, grisines con semillas de chia, barra de cereal, cereal free y copos de maiz sin azucar.</p>
                                 <img src="img/alimentos/modal3.jpg" class="img-responsive center-block" alt="Desayuno">
                             </div>
                             <div class="modal-footer">
@@ -484,7 +483,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             </div>
 
                             <div class="modal-body">
-                                <p>Copos de maíz sin azucar y con azúcar, bolitas de chocolates, cuadraditos de salvado, cereal free, aritos multifrutales y de miel, tutucas.  <br> Galletitas con semillas de chía, barras de cereales, mix de semillas y alfajor de algarroba</p>
+                                <p>Copos de maíz sin azúcar y con azúcar, bolitas de chocolates, cuadraditos de salvado, cereal free, aritos multifrutales y de miel, tutucas.  <br> Galletitas con semillas de chía, barras de cereales, mix de semillas y alfajor de algarroba</p>
                                 <img src="img/alimentos/modal4.jpg" class="img-responsive center-block" alt="tentempie">
                             </div>
                             <div class="modal-footer">
@@ -575,7 +574,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                      <h1>Articulos</h1>
+                      <h1>Artículos</h1>
                     <hr class="star-primary">
                     <div class="row links-articulos">
                         <div class="col-sm-6 col-md-4">
@@ -595,7 +594,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                             <div class="caption">
                             <h3>Alimentación Saludable</h3>
                             <br>
-                            <p>La alimentación saludable es la dieta que ayuda al buen funcionamiento del organismo. Por lo general implica la ingesta de alimentos variados para recibir todo tipo de nutrientes. Ademas se ha demostrado que previene el desarrollo de enfermedades..</p>
+                            <p>La alimentación saludable es la dieta que ayuda al buen funcionamiento del organismo. Por lo general implica la ingesta de alimentos variados para recibir todo tipo de nutrientes. Además se ha demostrado que previene el desarrollo de enfermedades..</p>
                             <p> <a class="btn btn-default" href="http://www.msal.gob.ar/ent/index.php/informacion-para-ciudadanos/alimentacion-saludable" target="_blank">Leer más <i class="fa fa-plus"></i></a></p>
                             </div>
                         </div>
@@ -679,7 +678,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
                 <div class="row fila-footer">
                     <div class="footer-col col-md-4">
                         <p class="titulo-pie">Ubicación</p>
-                        <p class="parrafo-pie">Perez Millan, Bs As<br>Naciones Unidas 360</p>
+                        <p class="parrafo-pie">Perez Millan, Bs As<br>Naciones Unidas y Moreno, por calle Naciones Unidas.</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <p class="titulo-pie">Contactame</p>
@@ -705,7 +704,7 @@ En Abril del año 2012 CAFSa se muda a la calle Juan José Paso,  ya que se nece
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; UCEL 2016
+                        Copyright &copy; 2016
                     </div>
                 </div>
             </div>
