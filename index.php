@@ -4,6 +4,17 @@
 	<meta charset="UTF-8">
 	<title>CAFSa GYM | Gimnasio, en Perez Milllan</title>
     <meta name="google-site-verification" content="gXfWJlTA07OLzAKodcjZe2GAGHwNkO2ttKlI4e709xo"/>
+    <!--Codigo de seguimiento Google Analytics -->
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-75598963-1', 'auto');
+       ga('send', 'pageview');
+
+    </script>
     <meta name="description" content="Somos un centro de actividad fisica con 7 de años de trayectoria. Gimnasio Cafsa a cargo de la Prof. Maria Silvia Sosa." />
     <meta name="keywords" content="cafsa,gimnasio,gimnasios,gimnasio,gym,actividad fisica,escuela deportiva,ritmo,colonia de invierno,gimnasia para embarazadas,alimentacion saludable">
 	 <!--Para renderizar en IE -->
@@ -45,7 +56,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
 
         <div class="container">
 
